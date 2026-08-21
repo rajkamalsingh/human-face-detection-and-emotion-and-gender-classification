@@ -1,0 +1,32 @@
+
+src/visualizations.py
+src/utils/get_gender_faces.py
+src/train_emotion_classifier_transfer_learning.py
+*.log
+*.tar
+*.hdf5
+datasets/
+
+# Secrets / environment variables
+.env
+.env.*
+
+# Model weights / artifacts
+*.pkl
+*.h5
+
+# Compiled Python
+*.pyc
+__pycache__/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
